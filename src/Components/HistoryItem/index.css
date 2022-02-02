@@ -1,0 +1,45 @@
+.licontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 14px;
+}
+.time {
+  color: #64748b;
+  width: 10%;
+}
+.titlecontainer {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+.domainimage {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.title {
+  color: #475569;
+  margin-right: 10px;
+  font-weight: 500;
+}
+.domainurl {
+  color: #64748b;
+  font-weight: 500;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.deleteimg {
+  width: 20px;
+}
+
+@media screen and (max-width: 426px) {
+  .time {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+}
